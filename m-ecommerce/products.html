@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunny Bakes | Products</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <h1>Sunny Bakes</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="cart">🛒 <span id="cart-count">0</span></div>
+    <button id="theme-toggle">Toggle Theme</button>
+  </nav>
+</header>
+
+<main>
+  <section class="products-grid">
+    <article class="product">
+      <img src="images/bread.svg" alt="Bread"/>
+      <h3>Fresh Bread</h3>
+      <p>Soft and freshly baked bread.</p>
+      <p class="price">$3.00</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </article>
+
+    <article class="product">
+      <img src="images/cake.svg" alt="Cake"/>
+      <h3>Chocolate Cake</h3>
+      <p>Rich chocolate flavor.</p>
+      <p class="price">$10.00</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </article>
+
+    <article class="product">
+      <img src="images/cookie.svg" alt="Cookies"/>
+      <h3>Cookies</h3>
+      <p>Crunchy and sweet cookies.</p>
+      <p class="price">$5.00</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Sunny Bakes</p>
+</footer>
+</body>
+</html>
